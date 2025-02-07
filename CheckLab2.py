@@ -442,6 +442,10 @@ class lab2g(unittest.TestCase):
         error_output = 'wrong output(HINT: should loop 10 times)'
         self.assertEqual(stdout, expected_output, msg=error_output)
 
+<<<<<<< HEAD
+=======
+@unittest.skip('checked after submission. Students: ignore')
+>>>>>>> bf47f96 (Initial commit or describe your changes)
 class lab2out(unittest.TestCase):
     """If lab2 output exists, verify the git email"""
     
